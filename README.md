@@ -31,6 +31,14 @@ def add(int a, int b) do
 end
 ```
 
+## 类型
+```elixir
+def sumof [X] (List[X] self) -> Int do
+
+end
+```
+
+
 ## 面向对象
 ```elixir
 class A do
