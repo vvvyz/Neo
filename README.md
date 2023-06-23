@@ -31,6 +31,13 @@ def add(int a, int b) do
 end
 ```
 
+## 面向对象
+```elixir
+class A do
+
+end
+```
+
 4. 模块
 ```elixir
 defmoulde Math do
