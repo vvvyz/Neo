@@ -33,7 +33,7 @@ end
 
 ## 类型
 ```elixir
-def sumof [X] (List[X] self) -> Int do
+def sumof <T> (List[X] self) -> Int do
 
 end
 ```
@@ -42,6 +42,12 @@ end
 ## 面向对象
 ```elixir
 class A do
+  def add(Int a) do
+    this.a = a
+  end
+end
+
+class B extends A do
 
 end
 ```
