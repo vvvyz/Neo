@@ -45,6 +45,11 @@ end
 instance A xxx do
 
 end
+
+#使用union类型
+def add(Int | Float a, Float b) do
+  result a + b
+end
 ```
 
 
