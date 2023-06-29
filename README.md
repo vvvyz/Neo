@@ -33,7 +33,16 @@ end
 
 ## 类型
 ```elixir
-def sumof <T> (List[X] self) -> Int do
+template<typename T>
+def sumof(List[X] self) -> Int do
+
+end
+
+interface A do
+
+end
+
+instance A xxx do
 
 end
 ```
