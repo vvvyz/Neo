@@ -5,7 +5,7 @@
 1. 定义, 声明,  赋值
 
 ```elixir
-def add = 1
+var add = 1
 int add = 2
 add = 2
 ```
