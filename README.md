@@ -29,6 +29,8 @@ def add(int a, int b) do
 
   end
 end
+
+\x => x
 ```
 
 ## 类型
