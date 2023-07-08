@@ -11,7 +11,13 @@ defmoulde Neo do
     end
 
     #泛型
-    
+    def add[T](T a, T a) -> void do
+
+    end 
+
+    #泛型函数调用
+    add[Int](a=2, b=3)
+
     #声明结构
     struct A do
         Int a;
@@ -23,5 +29,4 @@ defmoulde Neo do
 
     #lambda表达式
     var a = \x -> x;
-
 end
