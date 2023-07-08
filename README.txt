@@ -1,14 +1,11 @@
 (defmoudle Neo
+
     (define add
-        (lambda ([:x Int] [:b Int] [-> Int])
+        (fun ([:x Int] [:b Int] [-> Int])
             (define c (+ a b))
-            (Result c)
-        )
-    )
+            (Result c)))
 
     (assume T)
     (define add
-        (lambda ([:a T] [-> Int])
-            )
-        )
+        (func ([:a T] [-> Int])))
 )
