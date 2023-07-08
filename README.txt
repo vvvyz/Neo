@@ -30,7 +30,8 @@ defmoulde Neo do
     var b = A{a=1, b=2};
 
     #lambda表达式
-    var a = \(Int x) -> x;
+    var a = (lambda (Int a) a);
+    var c = (lambda (Int z) (+ z 1));
 
     def sort(a, b) -> [Int] do
 
