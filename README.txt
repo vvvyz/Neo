@@ -11,14 +11,14 @@ defmoulde Neo do
     end
 
     #泛型
-    assume<T>
+    assume<T>;
     def add(T a, T a) -> void do
 
     end 
 
     #泛型函数调用
-    assert<Int>
-    add(a=2, b=3)
+    assert<Int>;
+    add(a=2, b=3);
 
     #声明结构
     struct A do
