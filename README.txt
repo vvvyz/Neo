@@ -5,4 +5,10 @@
             (Result c)
         )
     )
+
+    (assume T)
+    (define add
+        (lambda ([:a T] [-> Int])
+            )
+        )
 )
