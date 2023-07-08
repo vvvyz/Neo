@@ -25,8 +25,12 @@ defmoulde Neo do
     end
 
     #结构体字面量
-    var b = A{a: 1, b: 2};
+    var b = A{a=1, b=2};
 
     #lambda表达式
-    var a = \x -> x;
+    var a = \(Int x) -> x;
+
+    def sort(a, b) -> [Int] do
+
+    end
 end
